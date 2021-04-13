@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChessApp</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="gallery">Gallery</string>
+    <string name="tick">✓</string>
+    <string name="cancel">✖</string>
+    <string name="play">PLAY</string>
+    <string name="deepchess">DeepChess</string>
+    <string name="camera">Camera</string>
+    <string name="get_your_image">Get your image</string>
+    <string name="predict_white">Predict White</string>
+    <string name="predict_black">Predict Black</string>
+</resources>

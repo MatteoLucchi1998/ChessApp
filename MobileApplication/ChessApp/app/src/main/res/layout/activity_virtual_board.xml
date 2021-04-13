@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chessBoard"
+    android:background="@android:color/black"
+    tools:context=".VirtualBoardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp">
+
+        <TextView
+            android:id="@+id/predicted_move"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            app:layout_constraintBottom_toTopOf="@+id/predict_white"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/predict_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginBottom="10sp"
+            android:alpha="0.70"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:text="@string/predict_white"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/predict_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:alpha="0.70"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:text="@string/predict_black"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
