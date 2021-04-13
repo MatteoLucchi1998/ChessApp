@@ -10,7 +10,7 @@ Created in collaboration with [Simone Mattioli](https://github.com/SimoneMattiol
 We created our own dataset by collenting chess board images, crop each box and label them.<br>
 We have a small dataset made of the 12.500 original images and a larger one made by 110.600 images.
 <br>
-All the datasets can be found <a href="https://drive.google.com/drive/folders/1DSgQq6am82dlhBs5cbA85SECThUErqKb?usp=sharing">here</a>.
+All the datasets can be found <a href="https://drive.google.com/drive/folders/1K4yABxrn-aIvjtAbycTPyjDGYVg6_YIG">here</a>.
   
 ## Models
 We generated up to 13 models using different approaches and training techniques.<br>
@@ -22,4 +22,4 @@ We generated up to 13 models using different approaches and training techniques.
 7 classes:
 <img src="/img/7classes.PNG" width="70%" height="70%"/>
 
-All the checkpoints can be found <a href="https://drive.google.com/drive/folders/1ra-H5OGlfVveFzrJjEBJtBPslbJNzMaF?usp=sharing">here</a>.
+All the checkpoints can be found <a href="https://drive.google.com/drive/folders/1Tp4o3D6_EMaBr4yM0hf4jzWkTPj1ZNeC">here</a>.
